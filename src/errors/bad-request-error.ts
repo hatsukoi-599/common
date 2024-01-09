@@ -1,5 +1,5 @@
 import { CustomError } from './custom-error';
-import 'express-async-errors';
+
 export class BadRequestError extends CustomError {
   statusCode = 400;
   constructor(public message: string) {
