@@ -8,6 +8,6 @@ export class NotFoundError extends CustomError {
   }
 
   serializeErrors(): { message: string; field?: string | undefined }[] {
-    return [{ message: 'Route Not Found' }];
+    return [{ message: 'Not Found' }];
   }
 }
